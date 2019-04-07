@@ -4,10 +4,11 @@ We will be updated the purpose and features of the caBot here.
 
 Supported in Python Version 3.x
 
-# Module Dependencies
+# Installation
 
-pip install irc
-pip install requests
+This will install the core cabot application and dependecies.
+
+pip install cabot-core
 
 # Structure
 
