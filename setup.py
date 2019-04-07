@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='caBot',
+    name='cabot-core',
     packages=['cabot'],
     version='0.1.0',
     license='MIT',
@@ -16,10 +16,10 @@ setup(
         'requests',
     ],
     classifiers=[
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',
-        'Topic :: Software Development :: Build Tools',
-        'License :: MIT License',
+        'Topic :: Communications :: Chat :: Internet Relay Chat',
+        'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3',
     ],
 )
