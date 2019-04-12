@@ -1,9 +1,9 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='cabot-core',
-    packages=['cabot'],
-    version='0.1.0',
+    packages=find_packages(),
+    version='0.1.2',
     license='MIT',
     description='A modular chat bot.',
     author='Joseph Hanna',
