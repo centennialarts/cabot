@@ -1,5 +1,5 @@
 #
-# DiscoBall Module
+# BotApi Module
 #
 
 # import config
@@ -12,23 +12,24 @@ import socket
 conn1 = None  # TODO: Extract this out along with the `disco` command below
 
 
-class DiscoBall:
+class BotApi:
     def __init__(self):
-        print("DiscoBall")
+        print("BotApi")
 
     def disco(
         self, message
-    ):  # TODO: Extract this and put it into its own socket external service listening thread
+    ):
+        # Example Command: This is the hardcoded command to toggle the discoball light
+        # TODO: Extract this and put it into its own socket external service listening thread
         conn1.send(
             "partyTime".encode("utf-8")
-        )  # This is the hardcoded command to toggle the discoball light
+        )
         # conn1.close()
         return "Hopefully this worked!"
 
-
 # initalize main module
-twitch_conf = init.config["DISCOBALL"]
-bot = DiscoBall()
+twitch_conf = init.config["BOTAPI"]
+bot = BotApi()
 
 # add to commands actions
 init.addCommandAction("disco", bot, "disco")
