@@ -1,4 +1,5 @@
 {
+    // Duplicate this file with the name "settings.json" to use
     "[python]": {
         "editor.rulers": [
             88
