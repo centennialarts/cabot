@@ -1,0 +1,22 @@
+{
+    /*
+        NOTE:
+            - Duplicate this file with the name "settings.json" to use
+            - Install the "Python" VSCode extension
+            - Run `python -m pip install -U black pylint rope --user`
+    */
+
+    "[python]": {
+        "editor.rulers": [
+            88
+        ],
+        "editor.formatOnSaveTimeout": 3000,
+        "editor.formatOnSave": true
+    },
+
+    "python.pythonPath": "~\\AppData\\Local\\Programs\\Python\\Python37\\python.exe",
+    "python.formatting.blackPath": "~\\AppData\\Roaming\\Python\\Python37\\Scripts\\black.exe",
+    "python.formatting.provider": "black",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true
+}
